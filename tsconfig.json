@@ -10,9 +10,12 @@
     "noImplicitReturns": false,
     "removeComments": false,
     "sourceMap": false,
-    "strictNullChecks": true,
+    "strictNullChecks": false,
     "target": "es5",
-    "outDir":"out"
+    "outDir":"out",
+    "types": ["node"],
+	"skipLibCheck": false
   },
-  "compileOnSave": true
+    "compileOnSave": true,
+	"buildOnSave": true
 }

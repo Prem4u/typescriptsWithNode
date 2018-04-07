@@ -1,7 +1,7 @@
-import {User} from "./User";
-import {Repository} from "./Repository";
+import {GitRepoService} from "./GitRepoService";
 
-let user:User=new User();
-user.test();
-let repo:Repository=new Repository();
-repo.test();
+
+let svc:GitRepoService = new GitRepoService();
+
+svc.getUserInfo("prem4u");
+
