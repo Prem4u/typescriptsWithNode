@@ -10,7 +10,7 @@ export class Repository {
     this.description = res.description;
     this.url = res.html_url;
     this.noOfForks = res.forks;
- 
+
 
   }
 
